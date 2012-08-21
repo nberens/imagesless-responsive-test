@@ -1,0 +1,274 @@
+/* CSS Document */
+*{
+	margin:0; padding:0;
+}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+/* =============================================================================
+   TYPE
+   ========================================================================== */
+body{
+	font-family:"PT Sans", sans serif;
+}
+/*--- HEADINGS ---*/
+h1, h2, h3, h4, h5, h6 {
+	/*font-family: 'Raleway', cursive;*/
+  margin-bottom: 20px;
+	font-family:"PT Sans", sans serif;
+	font-weight:lighter;
+}
+h4{
+	margin-bottom: 10px;
+}
+h1 {
+  font-size: 40pt;
+	font-family: 'Raleway', cursive;
+}
+p{
+	line-height:150%;
+}
+h3{
+	font-size:1.6em;
+}
+
+
+/*************************
+MY STYLES
+*************************/
+.clear-float{
+	clear:both;
+}
+.hide{
+	display:block;
+}
+body{
+	background-color:#ccc;
+}
+#outer-wrap{
+	width:100%;
+	background-color:white;
+	padding-top:60px;
+	padding-bottom:80px;
+}
+#wrap{
+	width:1010px;
+	margin:auto;
+}
+ul{
+	list-style:none;
+}
+.title-tile{
+	color:white;
+}
+#content-wrap{
+	margin-top:30px;
+	
+}
+#left-wrap{
+	float:left;
+	width:49.504950495%;/*500px*/
+}
+.title-tile{
+	width:60%; height:300px;
+	margin-bottom:20px;
+	background:#3399ff;
+	text-align:right;
+	padding-right:20px;
+	padding-top:90px;
+	float:left;
+}
+.title-tile h2{
+	font-family:Helvetica, sans-serif;
+	font-size:2.5em;
+	font-weight:;
+}
+.title-tile ul{
+	margin-top:20px;
+}
+
+#about-titles-wrap{
+	float:right;
+	width:38%;
+}
+#about-titles-wrap ul{
+	color:white;
+}
+li.about-tile{
+	height:145px;
+	background-color:black;
+	margin-bottom:10px;
+	padding-right:20px;
+	padding-top:30px;
+	text-align:right;
+	
+	-webkit-transition:background-color .2s ease-in;  
+   -moz-transition:background-color .2s ease-in;  
+   -o-transition:background-color .2s ease-in;  
+   transition:background-color .2s ease-in; 
+}
+li.about-tile:hover{
+	background-color:red;
+	cursor:pointer;
+}
+.about-title{
+	font-size:2.4em;
+	margin-bottom:20px;
+	font-family: Helvetica, sans-serif;
+}
+#right-wrap{
+	width:42.07920792%;/*425px*/
+	float:right;
+}
+.list-article-wrap{
+	margin-bottom:20px;
+}
+.date-tile{
+	position:relative;
+	width:28.235294117%;/*120px*/height:107px;
+	background:#cc0099;
+	text-align:center;
+	padding-top:5px;
+	color:white;
+	float:left;
+	font-size:1.1em;
+	
+	-webkit-transition:background-color .2s ease-in;  
+   -moz-transition:background-color .2s ease-in;  
+   -o-transition:background-color .2s ease-in;  
+   transition:background-color .2s ease-in;
+}
+.date-tile span{
+	display:block;
+	font-size:2em;
+	/*margin-top:px;*/
+}
+.category{
+	font-family: 'Raleway', cursive;
+	position:absolute;
+	width:100%;
+	bottom:0;
+	background:#7a005c;
+	color:white;
+	text-align:right;
+	padding-top:8px;
+	padding-right:10px;
+	font-size:.8em;
+	height:30px;
+}
+
+.list-article-content{
+	width:69.411764705%;/*295px*/
+	float:right;
+}
+.list-article-content p{
+	font-size:.8em;
+}
+#one:hover{
+	background:#ff00cc;
+	cursor:pointer;
+}
+#second{
+	background:#339900;66cc33
+}
+#second:hover{
+	background:#66cc33;
+	cursor:pointer;
+}
+#second .category{
+	background:#336600;
+}
+#third{
+	background:#006699;
+}
+#third:hover{
+	background:#3399cc;
+	cursor:pointer;
+}
+#third .category{
+	background:#003366;
+}
+#fourth{
+	background:#cc0033;
+}
+#fourth:hover{
+	background:#ff0033;
+	cursor:pointer;
+}
+#fourth .category{
+	background:#990033;
+}
+footer{
+	width:100%; height:200px;
+	background-color:#ccc;
+	margin-top:50px;
+}
+@media only screen and (max-width:1010px){
+	#wrap{
+		width:90%;
+	}
+}
+@media only screen and (max-width:845px){
+	.title-tile{
+		padding-top:60px;
+	}
+	#left-wrap{
+	float:none;
+	width:100%;/*500px*/
+}
+/*li#paul.about-tile{
+	background-image:url(../imgs/dev-tool.png);
+	background-repeat:no-repeat;
+}*/
+
+	#right-wrap{
+	width:100%;/*425px*/
+	margin-top:20px;
+	float:none;
+}
+
+}
+@media only screen and (max-width:600px){
+.hide{
+	display:none;
+}
+body{
+	padding-top:30px;
+}
+header h1{
+	font-size:2.5em;
+}
+.title-tile{
+	width:60%; height:200px;
+	padding-top:50px;
+}
+.title-tile h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2.5em;
+	font-weight:normal;
+}
+li.about-tile{
+	height:95px;
+	background-color:black;
+	
+	padding-right:10px;
+	padding-top:15px;
+	text-align:right;
+	font-size:.8em;
+	/*font-family: 'Raleway', cursive;*/
+}
+.about-title{
+	font-size:1.5em;
+	margin-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.date-tile{
+	padding-top:5px;
+	font-size:1em;
+}
+.date-tile span{
+	display:block;
+	font-size:2.3em;
+}
+}
